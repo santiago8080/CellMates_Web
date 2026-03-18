@@ -1,6 +1,6 @@
 function enviarPedido(nombreProducto) {
     // 1. Cambia este número por el tuyo (SOLO NÚMEROS)
-    const telefono = "541112345678"; 
+    const telefono = "5493447509775"; 
     
     // 2. Creamos el texto
     const texto = "Hola CellMates! 👋 Estoy interesado en el " + nombreProducto + ". ¿Tienen stock?";
