@@ -317,3 +317,29 @@ footer {
         width: 100%;
     }
 }
+.btn-whatsapp {
+    width: 100%;
+    padding: 12px;
+    background: #25d366; /* Verde WhatsApp */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-whatsapp i {
+    font-size: 1.4rem;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+    background: #20ba5a;
+}
